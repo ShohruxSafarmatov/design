@@ -483,8 +483,6 @@ header {
     width: 40px;
     height: 32px;
     position: absolute;
-    top: -7px;
-    left: -5px;
     cursor: pointer;
     opacity: 0;
     z-index: 2;
@@ -529,7 +527,7 @@ header {
 
   #menu {
     position: absolute;
-    width: 300px;
+    width: 435px;
     padding: 50px;
     background: #ededed;
     transform-origin: 0% 0%;
@@ -543,6 +541,6 @@ header {
   }
 
   #menuToggle input:checked ~ ul {
-    transform: translate(-100%, 0);
+    transform: translate(-83%, 0);
   }
 }/*# sourceMappingURL=main.css.map */
