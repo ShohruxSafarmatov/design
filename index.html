@@ -5,11 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lesson</title>
+  <!-- icon -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <!-- css -->
   <link rel="stylesheet" href="css/flexboxgrid.min.css">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
+  <header>
+    <div class="header__container container">
+      <div class="header__body">
+        <div class="header-site__logo">
+          <a class="header-site__link" href="index.html"><img class="header-site__logo img" src="img/site-logo.svg" alt="site-logo"></a>
+        </div>
+        <nav class="nav" role="navigation">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">OUR COMPANY</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">LOCATIONS</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">CONTACT</a></li>
+          </ul>
 
+
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="#"><li>OUR COMPANY</li></a>
+              <a href="#"><li>LOCATIONS</li></a>
+              <a href="#"><li>CONTACT</li></a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  
   <script src="js/main.js"></script>
 </body>
 </html>
