@@ -9,12 +9,15 @@
   background: #FFFFFF;
   border-radius: 8px;
   padding: 16px 25px;
+  transition: all 0.3s ease;
   &:hover{
     color: #FFFFFF;
-    background: #ee6d50;
+    background: #FFAD9B;
+    transition: all 0.3s ease;
   }
   &:active{
-    background: #FFAD9B;
+    background: #ee6d50;
+    transition: all 0.3s ease;
   }
 }
 @mixin web__design {

@@ -1,0 +1,126 @@
+#about{
+  padding: 160px 0 ;
+}
+
+.about__body {
+  width: 100%;
+  height: 292px;
+  position: relative;
+  background-color: #e7816b;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  z-index: 19;
+  padding: 72px 95px;
+}
+.about__block{
+  width: 459px;
+  height: 148px;
+  text-align: left;
+}
+.about__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: left;
+  color: #FFFFFF;
+  max-width: 260px;
+  margin-bottom: 12px;
+}
+.about__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  color: #FFFFFF;
+  max-width: 425px;
+}
+.about__btn {
+  @include hero__btn;
+  z-index: 1;
+}
+
+.ovals{
+  width: 292px;
+  height: 292px;
+  opacity: 0.31;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+}
+.ovals__won{
+  background: linear-gradient(
+  90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+  top: -146px;
+  right: 292px;
+}
+
+.ovals__two {
+  background: linear-gradient(
+  0deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+  top: -146px;
+  right: 0px;
+}
+.ovals__tree {
+  background: linear-gradient(
+  0deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+  bottom: -146px;
+  right: 0px;
+}
+.ovals__four {
+  background: linear-gradient(
+  90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+  bottom: -146px;
+  right: 292px;
+}
+.ovals__five {
+  background: linear-gradient(
+  180deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+  bottom: -146px;
+  right: 584px;
+}
+@media only screen and (max-width:895px) {
+  .about__body{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .about__block{
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .about__title{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .about__text{
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+}
+
+@media only screen and (max-width:485px) {
+  .about__title{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .about__text{
+    max-width: 297px;
+  }
+}
+
+@media only screen and (max-width:355px) {
+  .about__title{
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .about__text{
+    max-width: 187px;
+  }
+}
