@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson</title>
+  <!-- bootstrap -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- bootstrap end   -->
+  <!-- icon -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <!-- css -->
+  <link rel="stylesheet" href="css/flexboxgrid.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+  <header>
+    <div class="header__container container">
+      <div class="header__body">
+        <div class="header-site__logo">
+          <a class="header-site__link" href="index.html"><img class="header-site__logo img" src="img/site-logo.svg" alt="site-logo"></a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">OUR COMPANY</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">LOCATIONS</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">CONTACT</a></li>
+          </ul>
+          
+          <button class="none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class='bx bx-menu' ></i></button>
+          
+          <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+              <a class="header-site__link" href="index.html"><img class="header-site__logo img" src="img/site-logo.svg" alt="site-logo"></a>            
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="mobile__list">
+                <li class="mobile__item">
+                  <a class="mobile__link" href="#">OUR COMPANY</a>
+                </li>
+                <li class="mobile__item">
+                  <a class="mobile__link" href="#">LOCATIONS</a>
+                </li>
+                <li class="mobile__item">
+                  <a class="mobile__link" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section id="web">
+    <div class="web__container container">
+      <div class="web__body">
+        <div class="web__block">
+          <h2 class="web__title">Grafic Design</h2>
+          <p class="web__text">We deliver eye-catching branding materials that are 
+            tailored to meet your business objectives.
+            </p>  
+          </div>
+          <span class="ovals ovals__won"></span>
+          <span class="ovals ovals__two"></span>
+          <span class="ovals ovals__tree"></span>
+          <span class="ovals ovals__four"></span>
+          <span class="ovals ovals__five"></span>
+        </div>
+        
+      </div>
+    </section>
+    <section class="cards">
+      <div class="cards__container container">
+        <div class="cards__body">
+          <div class="cards__block">
+            <img class="cards__img" src="img/Express - Desktop (6).png" alt="img">
+            <div class="cards-block__content">
+              <h2 class="cards__title">AIRFILTER</h2>
+              <p class="cards__text">Solving the problem of poor indoor air quality by filtering the air</p>
+            </div>
+          </div>
+          <div class="cards__block">
+            <img class="cards__img" src="img/Express - Desktop (7).png" alt="img">
+            <div class="cards-block__content">
+              <h2 class="cards__title">EYECAM</h2>
+              <p class="cards__text">Product that lets you edit your favorite photos and videos at any time</p>
+            </div>
+          </div>
+          
+          <div class="cards__block">
+            <img class="cards__img" src="img/Express - Desktop (8).png" alt="img">
+            <div class="cards-block__content">
+              <h2 class="cards__title">FACEIT</h2>
+              <p class="cards__text">Get to meet your favorite internet superstar with the faceit app</p>
+            </div>
+          </div>
+          
+          <div class="cards__block">
+            <img class="cards__img" src="img/Express - Desktop (9).png" alt="img">
+            <div class="cards-block__content">
+              <h2 class="cards__title">TODO</h2>
+              <p class="cards__text">A todo app that features cloud sync with light and dark mode</p>
+            </div>
+          </div>
+          
+          <div class="cards__block last__child">
+            <img class="cards__img" src="img/Express - Desktop (10).png" alt="img">
+            <div class="cards-block__content">
+              <h2 class="cards__title">LOOPSTUDIOS</h2>
+              <p class="cards__text">A VR experience app made for Loopstudios</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="design" class=" pd-bottom">
+      <div class="design__container container">
+        <div class="design__body">
+          <ul class="web-design__list">
+            <li class="design__item">
+              <a class="design__link" href="app-design.html">
+                <h2 class="design__title">APP DESIGN</h2>
+                <p class="design__text">VIEW PROJECTS</p>
+              </a>
+            </li>
+            <li class="design__item">
+              <a class="design-link__two app" href="web-design.html">
+                <h2 class="design__title">WEB DESIGN</h2>
+                <p class="design__text">VIEW PROJECTS</p>
+              </a>
+            </li>
+          </ul>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about__container container">
+        <div class="about__body">
+          <div class="about__block">
+            <h2 class="about__title">Let’s talk about your project</h2>
+            <p class="about__text">Ready to take it to the next level? Contact us today and find out 
+              how our expertise can help your business grow.</p>  
+            </div>
+            <a class="about__btn" href="#">Get in touch</a>
+            <span class="ovals ovals__won"></span>
+            <span class="ovals ovals__two"></span>
+            <span class="ovals ovals__tree"></span>
+            <span class="ovals ovals__four"></span>
+            <span class="ovals ovals__five"></span>
+          </div>
+          
+        </div>
+      </section>
+      
+      <footer>
+        <div class="footer__container container">
+          <div class="footer__body">
+            <div class="footer__top">
+              <a href="index.html">
+                <img src="img/site-logo.png" alt="logo">
+              </a>
+              <hr class="br__two">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__link" href="#">OUR COMPANY</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#">LOCATIONS</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#">CONTACT</a>
+                </li>
+              </ul>
+              
+            </div>
+            <hr class="br">
+  
+            <div class="footer__bottom">
+              <div class="mr-bottom">
+                <p class="footer__office">Designo Central Office</p>
+                <p class="footer__addres">3886 Wellington Street</p>
+                <p class="footer__addres">Toronto, Ontario M9C 3J5</p>
+              </div>
+              <div class="mr-bottom">
+                <p class="footer__office">Contact Us (Central Office)</p>
+                <a class="footer__office" href="tel:+998977590506">P : +998 97 759 05 06</a>
+                <p class="footer__office">M : contact@designo.co</p>
+              </div>
+              <ul class="footer-social__list">
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="https://www.facebook.com/">
+                    <i class='bx bxl-facebook-square'></i>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="https://www.youtube.com/">
+                    <i class='bx bxl-youtube' ></i>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="https://www.twitter.com/">
+                    <i class='bx bxl-twitter' ></i>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="#">
+                    <i class='bx bxl-pinterest'></i>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="#">
+                    <i class='bx bxl-instagram' ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </footer>
+    
