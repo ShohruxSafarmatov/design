@@ -1,6 +1,4 @@
-#about{
-  padding: 160px 0 ;
-}
+
 
 .about__body {
   width: 100%;
@@ -14,6 +12,7 @@
   overflow: hidden;
   z-index: 19;
   padding: 72px 95px;
+  transform: translateY(235px);
 }
 .about__block{
   width: 459px;
@@ -88,6 +87,7 @@
     flex-direction: column;
     text-align: center;
     padding: 30px 0;
+    transform: translateY(60px);
   }
   .about__block{
     text-align: center;
