@@ -365,6 +365,34 @@ ul, li, a, button, input, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Jost", sans-serif;
   background-color: #fFf;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 126px;
+  right: unset;
+  bottom: unset;
+  left: -164px;
+  width: 1006px;
+  height: 594px;
+  background: url(/img/bg-pattern-leaf.svg);
+  z-index: -2;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 1800px;
+  right: -110px;
+  bottom: unset;
+  left: unset;
+  width: 1006px;
+  height: 594px;
+  background: url(/img/bg-pattern-leaf.svg);
+  z-index: -2;
+  transform: rotate(180deg);
+  overflow: hidden;
 }
 
 img {
@@ -1570,5 +1598,78 @@ hr:not([size]) {
   .cards__block {
     margin: 0 auto;
     margin-bottom: 25px;
+  }
+}
+.about__hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E7816B;
+  border-radius: 15px;
+}
+
+.about-hero__block {
+  padding: 143px 95px;
+  position: relative;
+  overflow: hidden;
+}
+.about-hero__block::before {
+  content: "";
+  display: block;
+  background: url(/img/bg-pattern-hero-about-desktop.svg);
+  width: 640px;
+  height: 640px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 0;
+}
+
+.about-hero__texts {
+  width: 460px;
+}
+
+.about-hero__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.about-hero__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.about-hero__bgimg {
+  width: 473px;
+  height: 480px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-image: url(/img/about-hero.png);
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1170px) {
+  .about__hero {
+    height: 632px;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .about-hero__bgimg {
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+  }
+
+  .about-hero__block {
+    padding: 65px 95px;
   }
 }/*# sourceMappingURL=main.css.map */
