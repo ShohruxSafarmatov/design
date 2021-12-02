@@ -1,0 +1,67 @@
+.diel-talent__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.diel-talent__block {
+  padding: 163px 95px;
+  background: #FDF3F0;
+  border-top-left-radius: 15px;
+  border-bottom-rght-radius: 15px;
+
+}
+
+.diel-talent__image {
+  background-image: url(/img/deal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 476px;
+  height: 640px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  z-index: 1;
+
+}
+
+@media only screen and (max-width:1170px) {
+  .diel-talent__body {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+
+  .diel-talent__image {
+    background-image: url(/img/diel2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: unset;
+    background-size: cover;
+  }
+
+  .diel-talent__block {
+    border-top-left-radius: unset;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 68px 58px 94px 58px;
+
+  }
+
+  .about-talent__texts {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:576px) {
+  .diel-talent__block {
+    padding: 35px 10px 40px 10px;
+  }
+}

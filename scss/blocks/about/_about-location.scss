@@ -1,0 +1,41 @@
+.location__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location__item {
+  text-align: center;
+}
+
+.location__img {
+  margin-bottom: 48px;
+}
+
+.location__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #333136;
+  margin-bottom: 32px
+}
+
+.location__link {
+  @include location__btn;
+}
+
+@media only screen and (max-width:768px) {
+  .location__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location__item {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}
