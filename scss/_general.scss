@@ -21,37 +21,17 @@ ul,li,a,button,input,h1,h2,h3,h4,h5,h6{
 
 
 body {
-  font-family: 'Jost', sans-serif;
-  background-color: #fFf;
+  font-family: "Jost",sans-serif;
+  background-color: #fff;
   position: relative;
-  &::before{
-    content: '';
-    position: absolute;
-    top: 126px;
-    right: unset;
-    bottom: unset;
-    left: -164px;
-    width: 1006px;
-    height: 594px;
-    background: url(/img/bg-pattern-leaf.svg);
-    z-index: -2;
-  }
+  background: url(/img/bg-pattern-leaf.svg);
+  background-repeat: no-repeat;
+  background-position: left top 515px;
 }
 .main{
-  &::before{
-    content: '';
-    position: absolute;
-    top: 1800px;
-    right: -110px;
-    bottom: unset;
-    left: unset;
-    width: 1006px;
-    height: 594px;
-    background: url(/img/bg-pattern-leaf.svg);
-    z-index: -2;
-    transform: rotate(180deg);
-    overflow: hidden;
-  }
+    background: url(/img/bg-pattern-leaf.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 img {
