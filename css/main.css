@@ -1998,4 +1998,7 @@ hr:not([size]) {
   .diel-talent__block {
     padding: 35px 10px 40px 10px;
   }
+}
+.location__canada {
+  border-radius: 15px;
 }/*# sourceMappingURL=main.css.map */
